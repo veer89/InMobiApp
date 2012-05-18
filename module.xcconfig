@@ -25,3 +25,16 @@
 //
 // IMPORTANT NOTE: always use $(inherited) in your overrides
 // 
+
+OTHER_LDFLAGS=$(inherited) -framework AVFoundation
+OTHER_LDFLAGS=$(inherited) -framework MediaPlayer
+OTHER_LDFLAGS=$(inherited) -framework SystemConfiguration
+OTHER_LDFLAGS=$(inherited) -framework MessageUI
+OTHER_LDFLAGS=$(inherited) -framework QuartzCore
+OTHER_LDFLAGS=$(inherited) -framework UIKit
+OTHER_LDFLAGS=$(inherited) -framework CoreGraphics
+OTHER_LDFLAGS=$(inherited) -framework CoreLocation
+OTHER_LDFLAGS=$(inherited) -framework Foundation
+OTHER_LDFLAGS=$(inherited) -framework Security
+OTHER_LDFLAGS[sdk=iphoneos4*]=$(inherited) -framework Security
+OTHER_LDFLAGS[sdk=iphonesimulator4*]=$(inherited) -framework Security

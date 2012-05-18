@@ -31,6 +31,15 @@
 		A3DE95581566106700AD8FD3 /* IMAdRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = A3DE95511566106700AD8FD3 /* IMAdRequest.h */; };
 		A3DE95591566106700AD8FD3 /* IMAdView.h in Headers */ = {isa = PBXBuildFile; fileRef = A3DE95521566106700AD8FD3 /* IMAdView.h */; };
 		A3DE955A1566106700AD8FD3 /* IMSDKUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = A3DE95531566106700AD8FD3 /* IMSDKUtil.h */; };
+		A3DE95681566160200AD8FD3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3DE95671566160200AD8FD3 /* CoreLocation.framework */; };
+		A3DE956A1566161D00AD8FD3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3DE95691566161D00AD8FD3 /* CoreGraphics.framework */; };
+		A3DE956C1566163600AD8FD3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3DE956B1566163600AD8FD3 /* UIKit.framework */; };
+		A3DE956E1566163F00AD8FD3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3DE956D1566163E00AD8FD3 /* QuartzCore.framework */; };
+		A3DE95701566165400AD8FD3 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3DE956F1566165400AD8FD3 /* MessageUI.framework */; };
+		A3DE95721566165C00AD8FD3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3DE95711566165C00AD8FD3 /* SystemConfiguration.framework */; };
+		A3DE95761566167900AD8FD3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3DE95731566167900AD8FD3 /* AVFoundation.framework */; };
+		A3DE95771566167900AD8FD3 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3DE95741566167900AD8FD3 /* MediaPlayer.framework */; };
+		A3DE95781566167900AD8FD3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3DE95751566167900AD8FD3 /* Security.framework */; };
 		AA747D9F0F9514B9006C5449 /* ComInmobiapp_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* ComInmobiapp_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -56,6 +65,16 @@
 		A3DE95511566106700AD8FD3 /* IMAdRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IMAdRequest.h; path = Classes/IMAdRequest.h; sourceTree = "<group>"; };
 		A3DE95521566106700AD8FD3 /* IMAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IMAdView.h; path = Classes/IMAdView.h; sourceTree = "<group>"; };
 		A3DE95531566106700AD8FD3 /* IMSDKUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IMSDKUtil.h; path = Classes/IMSDKUtil.h; sourceTree = "<group>"; };
+		A3DE95661566149B00AD8FD3 /* module.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = module.xcconfig; sourceTree = "<group>"; };
+		A3DE95671566160200AD8FD3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A3DE95691566161D00AD8FD3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A3DE956B1566163600AD8FD3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A3DE956D1566163E00AD8FD3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A3DE956F1566165400AD8FD3 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		A3DE95711566165C00AD8FD3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A3DE95731566167900AD8FD3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A3DE95741566167900AD8FD3 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		A3DE95751566167900AD8FD3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		AA747D9E0F9514B9006C5449 /* ComInmobiapp_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComInmobiapp_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libComInmobiapp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libComInmobiapp.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,6 +85,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3DE95761566167900AD8FD3 /* AVFoundation.framework in Frameworks */,
+				A3DE95771566167900AD8FD3 /* MediaPlayer.framework in Frameworks */,
+				A3DE95781566167900AD8FD3 /* Security.framework in Frameworks */,
+				A3DE95721566165C00AD8FD3 /* SystemConfiguration.framework in Frameworks */,
+				A3DE95701566165400AD8FD3 /* MessageUI.framework in Frameworks */,
+				A3DE956E1566163F00AD8FD3 /* QuartzCore.framework in Frameworks */,
+				A3DE956C1566163600AD8FD3 /* UIKit.framework in Frameworks */,
+				A3DE956A1566161D00AD8FD3 /* CoreGraphics.framework in Frameworks */,
+				A3DE95681566160200AD8FD3 /* CoreLocation.framework in Frameworks */,
 				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,6 +123,15 @@
 		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A3DE95731566167900AD8FD3 /* AVFoundation.framework */,
+				A3DE95741566167900AD8FD3 /* MediaPlayer.framework */,
+				A3DE95751566167900AD8FD3 /* Security.framework */,
+				A3DE95711566165C00AD8FD3 /* SystemConfiguration.framework */,
+				A3DE956F1566165400AD8FD3 /* MessageUI.framework */,
+				A3DE956D1566163E00AD8FD3 /* QuartzCore.framework */,
+				A3DE956B1566163600AD8FD3 /* UIKit.framework */,
+				A3DE95691566161D00AD8FD3 /* CoreGraphics.framework */,
+				A3DE95671566160200AD8FD3 /* CoreLocation.framework */,
 				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -119,6 +156,7 @@
 		32C88DFF0371C24200C91783 /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				A3DE95661566149B00AD8FD3 /* module.xcconfig */,
 				AA747D9E0F9514B9006C5449 /* ComInmobiapp_Prefix.pch */,
 				24DD6D1B1134B66800162E58 /* titanium.xcconfig */,
 			);
@@ -242,6 +280,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DSTROOT = /tmp/ComInmobiapp.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -288,6 +330,10 @@
 				);
 				"ARCHS[sdk=iphonesimulator*]" = i386;
 				DSTROOT = /tmp/ComInmobiapp.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
