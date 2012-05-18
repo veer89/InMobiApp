@@ -26,6 +26,11 @@
 		24DD6CFA1134B3F500162E58 /* ComInmobiappModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* ComInmobiappModule.m */; };
 		24DE9E1111C5FE74003F90F6 /* ComInmobiappModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* ComInmobiappModuleAssets.h */; };
 		24DE9E1211C5FE74003F90F6 /* ComInmobiappModuleAssets.mm in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* ComInmobiappModuleAssets.mm */; };
+		A3DE95541566106700AD8FD3 /* IMAdDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A3DE954D1566106700AD8FD3 /* IMAdDelegate.h */; };
+		A3DE95551566106700AD8FD3 /* IMAdError.h in Headers */ = {isa = PBXBuildFile; fileRef = A3DE954E1566106700AD8FD3 /* IMAdError.h */; };
+		A3DE95581566106700AD8FD3 /* IMAdRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = A3DE95511566106700AD8FD3 /* IMAdRequest.h */; };
+		A3DE95591566106700AD8FD3 /* IMAdView.h in Headers */ = {isa = PBXBuildFile; fileRef = A3DE95521566106700AD8FD3 /* IMAdView.h */; };
+		A3DE955A1566106700AD8FD3 /* IMSDKUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = A3DE95531566106700AD8FD3 /* IMSDKUtil.h */; };
 		AA747D9F0F9514B9006C5449 /* ComInmobiapp_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* ComInmobiapp_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -36,19 +41,24 @@
 			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D2AAC07D0554694100DB518D;
-			remoteInfo = "inmobiapp";
+			remoteInfo = inmobiapp;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		24DD6CF71134B3F500162E58 /* ComInmobiappModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ComInmobiappModule.h"; path = "Classes/ComInmobiappModule.h"; sourceTree = "<group>"; };
-		24DD6CF81134B3F500162E58 /* ComInmobiappModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "ComInmobiappModule.m"; path = "Classes/ComInmobiappModule.m"; sourceTree = "<group>"; };
+		24DD6CF71134B3F500162E58 /* ComInmobiappModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComInmobiappModule.h; path = Classes/ComInmobiappModule.h; sourceTree = "<group>"; };
+		24DD6CF81134B3F500162E58 /* ComInmobiappModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComInmobiappModule.m; path = Classes/ComInmobiappModule.m; sourceTree = "<group>"; };
 		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
-		24DE9E0F11C5FE74003F90F6 /* ComInmobiappModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ComInmobiappModuleAssets.h"; path = "Classes/ComInmobiappModuleAssets.h"; sourceTree = "<group>"; };
-		24DE9E1011C5FE74003F90F6 /* ComInmobiappModuleAssets.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "ComInmobiappModuleAssets.mm"; path = "Classes/ComInmobiappModuleAssets.mm"; sourceTree = "<group>"; };
-		AA747D9E0F9514B9006C5449 /* ComInmobiapp_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ComInmobiapp_Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		24DE9E0F11C5FE74003F90F6 /* ComInmobiappModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComInmobiappModuleAssets.h; path = Classes/ComInmobiappModuleAssets.h; sourceTree = "<group>"; };
+		24DE9E1011C5FE74003F90F6 /* ComInmobiappModuleAssets.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ComInmobiappModuleAssets.mm; path = Classes/ComInmobiappModuleAssets.mm; sourceTree = "<group>"; };
+		A3DE954D1566106700AD8FD3 /* IMAdDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IMAdDelegate.h; path = Classes/IMAdDelegate.h; sourceTree = "<group>"; };
+		A3DE954E1566106700AD8FD3 /* IMAdError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IMAdError.h; path = Classes/IMAdError.h; sourceTree = "<group>"; };
+		A3DE95511566106700AD8FD3 /* IMAdRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IMAdRequest.h; path = Classes/IMAdRequest.h; sourceTree = "<group>"; };
+		A3DE95521566106700AD8FD3 /* IMAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IMAdView.h; path = Classes/IMAdView.h; sourceTree = "<group>"; };
+		A3DE95531566106700AD8FD3 /* IMSDKUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IMSDKUtil.h; path = Classes/IMSDKUtil.h; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* ComInmobiapp_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComInmobiapp_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		D2AAC07E0554694100DB518D /* libComInmobiapp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libComInmobiapp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2AAC07E0554694100DB518D /* libComInmobiapp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libComInmobiapp.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +89,7 @@
 				0867D69AFE84028FC02AAC07 /* Frameworks */,
 				034768DFFF38A50411DB9C8B /* Products */,
 			);
-			name = "inmobiapp";
+			name = inmobiapp;
 			sourceTree = "<group>";
 		};
 		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
@@ -93,6 +103,11 @@
 		08FB77AEFE84172EC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				A3DE954D1566106700AD8FD3 /* IMAdDelegate.h */,
+				A3DE954E1566106700AD8FD3 /* IMAdError.h */,
+				A3DE95511566106700AD8FD3 /* IMAdRequest.h */,
+				A3DE95521566106700AD8FD3 /* IMAdView.h */,
+				A3DE95531566106700AD8FD3 /* IMSDKUtil.h */,
 				24DE9E0F11C5FE74003F90F6 /* ComInmobiappModuleAssets.h */,
 				24DE9E1011C5FE74003F90F6 /* ComInmobiappModuleAssets.mm */,
 				24DD6CF71134B3F500162E58 /* ComInmobiappModule.h */,
@@ -120,6 +135,11 @@
 				AA747D9F0F9514B9006C5449 /* ComInmobiapp_Prefix.pch in Headers */,
 				24DD6CF91134B3F500162E58 /* ComInmobiappModule.h in Headers */,
 				24DE9E1111C5FE74003F90F6 /* ComInmobiappModuleAssets.h in Headers */,
+				A3DE95541566106700AD8FD3 /* IMAdDelegate.h in Headers */,
+				A3DE95551566106700AD8FD3 /* IMAdError.h in Headers */,
+				A3DE95581566106700AD8FD3 /* IMAdRequest.h in Headers */,
+				A3DE95591566106700AD8FD3 /* IMAdView.h in Headers */,
+				A3DE955A1566106700AD8FD3 /* IMSDKUtil.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +158,8 @@
 			);
 			dependencies = (
 			);
-			name = "inmobiapp";
-			productName = "inmobiapp";
+			name = inmobiapp;
+			productName = inmobiapp;
 			productReference = D2AAC07E0554694100DB518D /* libComInmobiapp.a */;
 			productType = "com.apple.product-type.library.static";
 		};
@@ -221,11 +241,11 @@
 				"ARCHS[sdk=iphonesimulator*]" = i386;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DSTROOT = "/tmp/ComInmobiapp.dst";
+				DSTROOT = /tmp/ComInmobiapp.dst;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ComInmobiapp_Prefix.pch";
+				GCC_PREFIX_HEADER = ComInmobiapp_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = "";
@@ -244,7 +264,7 @@
 					"-DTI_POST_1_2",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "ComInmobiapp";
+				PRODUCT_NAME = ComInmobiapp;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				RUN_CLANG_STATIC_ANALYZER = NO;
@@ -267,11 +287,11 @@
 					armv7,
 				);
 				"ARCHS[sdk=iphonesimulator*]" = i386;
-				DSTROOT = "/tmp/ComInmobiapp.dst";
+				DSTROOT = /tmp/ComInmobiapp.dst;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ComInmobiapp_Prefix.pch";
+				GCC_PREFIX_HEADER = ComInmobiapp_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = "";
@@ -288,7 +308,7 @@
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_CFLAGS = "-DTI_POST_1_2";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "ComInmobiapp";
+				PRODUCT_NAME = ComInmobiapp;
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "";
@@ -310,11 +330,11 @@
 				"ARCHS[sdk=iphonesimulator*]" = i386;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DSTROOT = "/tmp/ComInmobiapp.dst";
+				DSTROOT = /tmp/ComInmobiapp.dst;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ComInmobiapp_Prefix.pch";
+				GCC_PREFIX_HEADER = ComInmobiapp_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = "";
@@ -332,7 +352,7 @@
 					"-DTI_POST_1_2",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "ComInmobiapp";
+				PRODUCT_NAME = ComInmobiapp;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				RUN_CLANG_STATIC_ANALYZER = NO;
@@ -355,11 +375,11 @@
 					armv7,
 				);
 				"ARCHS[sdk=iphonesimulator*]" = i386;
-				DSTROOT = "/tmp/ComInmobiapp.dst";
+				DSTROOT = /tmp/ComInmobiapp.dst;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ComInmobiapp_Prefix.pch";
+				GCC_PREFIX_HEADER = ComInmobiapp_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = "";
@@ -375,7 +395,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				OTHER_CFLAGS = "-DTI_POST_1_2";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "ComInmobiapp";
+				PRODUCT_NAME = ComInmobiapp;
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "";
